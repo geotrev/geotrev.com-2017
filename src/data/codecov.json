@@ -1,0 +1,7 @@
+{
+  "name": "Codecov",
+  "category": "Graphic Design, UI/UX, Front-End Development",
+  "intro": "I've known the owner of Codecov for some time, and was around during the baby stages of the application. The owner needed a simple but understandable design for his website to market the product, which was a static analysis tool. He needed a homepage that was branded to his needs, and also a logo and color palette that helped it stand apart from the sea of blue usually found in the software world.",
+  "goals": "We wanted to design, develop, and QA the final version of the marketing page within about a month. His business goal at the time was to provide a friendly, personable, and reliable looking product to the development world. He felt confident in his product due to its immense flexibility, so the marketing had to reflect that. As a one-man operation, he also wanted to show something that felt fun and homegrown.",
+  "tools": "This was one of my first projects that I saw from concept to implementation. For concept and design, I used Illustrator. To develop, I used Ember CLI, SCSS, and Bootstrap. We used Github as a review medium while the project was developed publicly. Due to the simple nature of the effort, no JavaScript was needed."
+}

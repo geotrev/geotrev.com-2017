@@ -1,0 +1,27 @@
+.display {
+  border: 2px solid $black;
+  padding: 1.3em 1.8em;
+  background-color: $white;
+  font-size: 85%;
+  font-weight: 700;
+  color: $black;
+  text-transform: uppercase;
+  display: block;
+  transition: ease-out .3s;
+
+  &:hover { letter-spacing: 2px; transition: ease-out .3s; }
+
+  &.inverted {
+    background-color: transparent;
+    color: $white;
+    border-color: $white;
+  }
+
+  @each $name, $color in $projects {
+    &.#{$name}:hover, &.#{$name}:focus {
+      background-color: $color;
+      border-color: $color;
+      color: $white;
+    }
+  }
+}

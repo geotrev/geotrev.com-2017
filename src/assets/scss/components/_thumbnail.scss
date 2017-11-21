@@ -1,0 +1,61 @@
+// thumbnail base styles
+// ---------------------
+
+.project-thumb {
+  // replaced by a project name class, e.g. "itunes"
+  @include image('../img/placeholder-thumb.png');
+
+  align-items: center;
+  display: flex;
+  height: 250px;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+
+  h3 {
+    color: $primary-color;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: $global-weight-bold;
+  }
+
+  h4 {
+    color: $white;
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+
+  h3, h4 { opacity: 0; }
+
+  .thumb-bg {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    flex: 0 0 auto;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    padding: 0 2rem;
+
+    &:hover {
+      @include secondary-scale-bg(0.9);
+      h3, h4 { opacity: 1; }
+    }
+  }
+}
+
+// thumbnails
+// ----------
+
+.project-thumb {
+  @each $project, $title in $projects {
+    $name: nth($project, 1);
+    &.#{$name} {
+      background-image: url('../img/#{$name}/#{$name}-thumb.jpg');
+      background-position: center center;
+      background-repeat: no-repeat no-repeat;
+      background-size: cover;
+    }
+  }
+}

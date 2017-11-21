@@ -1,0 +1,19 @@
+{
+  "name": "iTunes Redesign",
+  "category": "Graphic Design, UI/UX",
+  "intro": "Like most, I have a love-hate relationship with Apple's most famous application. Truthfully, it's my least favorite in their app ecosystem, primarily due to its overbundled and confusing interface. I created a solution prior to their 12.0 release which brought iTunes' more usable sidebar UI back.",
+  "goals": {
+      "one": "Uncomplicate general navigation / user experience.",
+      "two": "Use Apple's design language to fit it within the ecosystem.",
+    "three": "Create a matching icon set to fit the new interface (this was mostly for fun).",
+     "four": "Finish within a day."
+  },
+  "tools": "Wireframes and iconography were created in Illustrator, everything else designed in Sketch, and prototyped in Marvel. Oh, and thoughts recorded and direction planned using the best text editor ever.",
+  "concept": {
+      "one": "With each pass of wireframes, I started to get a better understanding of the layout I wanted. I chose a layout that both contained the content best and created the most usable experience (this would change during prototyping as noted below).",
+      "two": "I felt with the above established, it was time to start building a simple mock-up at mid-high fidelity.",
+    "three": "NOTE: Since I'm building under the premise that I'm in the macOS' design language, it seemed unnecessary to explore UI styles. I found a great macOS UI kit for Sketch which made getting started much faster."
+  },
+  "icons": "The set is heavily influenced by iOS' design style. Again, the goal here was to stay (believably) within Apple's design language. I did add some personal flare, though, for the sake of it being a personal project.",
+  "interface": "Once the final design / UX / UI was more-or-less settled, I started to fill out more screens to reflect how navigation might work in a prototype. As a result of this experiment, several pieces of the UI changed. Here's the final design:"
+}

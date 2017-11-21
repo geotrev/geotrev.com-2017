@@ -1,0 +1,118 @@
+// section component
+// -----------------
+
+.section {
+  background-color: $white;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  width: 100%;
+  padding-left: $global-padding;
+  padding-right: $global-padding;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: $black;
+
+  &.fullscreen {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+
+    .arrow {
+      position: absolute;
+      bottom: -1rem;
+      left: 49.25%;
+      font-size: 2rem;
+      animation-delay: 1s;
+
+      &.white { color: rgba(255,255,255,0.5); }
+      &.black { color: rgba(0,0,0,0.5); }
+
+      @include breakpoint(large) { bottom: 1.5rem; }
+    }
+  }
+
+  &.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .text-block {
+    margin-bottom: 4rem;
+    &.no-spacer { margin-bottom: 0; }
+  }
+}
+
+// home cover
+// ----------
+
+.section {
+  &.home {
+    @include image('../img/background-2.jpg');
+
+    a {
+      padding: 0 0.5rem;
+      font-weight: $global-weight-bold;
+
+      @include breakpoint(small) {
+        i { font-size: 20px; }
+      }
+      @include breakpoint (large) {
+        i { font-size: 24px; }
+      }
+    }
+  }
+}
+
+// project covers
+// --------------
+
+.section {
+  &.project { margin-bottom: 4rem; }
+
+  @each $project, $title in $projects {
+    $name: nth($project, 1);
+    &.#{$name}-cover {
+      @include image-position(center, center);
+      background-image: url(../img/#{$name}/cover-image.jpg);
+    }
+  }
+}
+
+// colored background sections
+// ---------------------------
+
+.section {
+  // defaults
+  &.primary { background-color: $primary-color; }
+  &.secondary { background-color: $secondary-color; }
+
+  // activerain
+  &.ar-primary { background-color: $activerain-orange; }
+  &.ar-secondary { background-color: $activerain-blue; }
+
+  // musicnotes
+  &.mn-primary { background-color: $musicnotes-navy; }
+  &.mn-secondary { background-color: $musicnotes-ocean; }
+
+  // codecov
+  &.cc-primary { background-color: $codecov-pink; }
+  &.cc-secondary { background-color: $codecov-blue; }
+
+  // itunes
+  &.itunes-primary { background-color: $itunes-red; }
+  &.itunes-secondary { background-color: $itunes-blue; }
+
+  // clarion
+  &.clarion-primary { background-color: $clarion-blue; }
+
+  &.primary, &.secondary,
+  &.ar-primary, &.ar-secondary,
+  &.mn-primary, &.mn-secondary,
+  &.cc-primary, &.cc-secondary,
+  &.itunes-primary, &.itunes-secondary,
+  &.clarion-primary { color: $white; }
+}

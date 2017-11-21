@@ -1,0 +1,9 @@
+.nav-collapse-height {
+  height: 0 !important;
+  z-index: 9999;
+  overflow: visible;
+}
+
+.text-secondary { opacity: 0.5; }
+.text-white { color: $white; }
+.text-dark { color: $dark-gray; }

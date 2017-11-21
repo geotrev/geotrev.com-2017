@@ -1,0 +1,23 @@
+{
+  "name": "Musicnotes",
+  "category": "Graphic Design, UI/UX, Front-End Development",
+
+  "intro": {
+      "one": "As the lead distributor in digital sheet music, Musicnotes decided to use that reputation to its fullest with introducing a full family of applications on Windows, Mac, iOS, and Android. I was lucky enough to be the lead designer on each of these apps. The core of this experience is really the management and reading of their sheet music, while the point of sale happens on the website.",
+      "two": "In addition to working on the apps, I designed and implemented a few standalone web pages, including their app details pages, member rewards page, a publishers information page. In addition, I made some core web app designs for their Product, Wishlist, Basket, Checkout, and Receipt page experiences. They're all fully responsive using bootstrap with jQuery."
+  },
+  "goals": {
+    "one": "As I mentioned, there are four total platforms, each with their own nuances for interaction and visual conventions. Maintaining the brand of Musicnotes while being true to platform standard was the baseline.",
+    "two": "Most of the feedback received after each iteration was positive. Stakeholders relied on customer requests for features in combination with the product owner's vision. Any dissonant feedback tended to be feature requests, small bugs, or something unrelated to the apps entirely."
+  },
+  "tools": "I used Sketch for UI design, Illustrator for iconography, Marvel for UX prototyping + user testing, and Photoshop for optimization of production assets. The backend of the apps used Xamarin Forms.  All user testing was in-person, since Musicnotes employs its own publications staff to write and score sheet music.",
+  "mobile": {
+    "one": "The mobile apps posed a unique challenge. We wanted to focus on giving larger-form devices the more ideal performance experience, while making sure smaller devices were still usable to manage the customers collections of music.",
+    "two": "We went through several rounds of user testing for each feature. We ultimately chose a design (for Android) that closely tied in with iOS."
+  },
+  "desktop": {
+    "one": "These apps took on a different extreme than the mobile apps. Where we had to optimize phones to manage content, we had to do the same for desktop. It led to a familiar problem that required a UI optimized for larger form factors.",
+    "two": "Another unique conundrum had to be Windows 10. Because it's a shared OS on many device types (phones / tablets / desktop) we optimized it only for tablets and desktop (at least for MVP). Mac didn't have that luxury so it stayed a content-management experience over a performance-based one."
+  },
+  "icons": "This is the icon family used for the app UI. We designed them from the ground-up to give the app family as much of a branded experience as possible. Each was designed on an 8x8 grid with a 1px stroke, for consistency."
+}

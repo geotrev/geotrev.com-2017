@@ -1,0 +1,38 @@
+// project names
+// -------------
+
+$projects: (
+  codecov: $codecov-blue,
+  musicnotes: $musicnotes-green-accent,
+  activerain: $activerain-orange,
+  itunes: $itunes-blue,
+  clarion: $clarion-blue,
+  logos: logos
+);
+
+// cover image
+// -----------
+
+@mixin image($path:null) {
+  background-image: url(#{$path});
+  background-position: center center;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+}
+
+@mixin image-position($h, $v) {
+  background-position: $h $v;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+}
+
+// color helpers
+// -------------
+
+@mixin primary-scale-bg($opacity) {
+  background-color: rgba(255, 115, 0, $opacity);
+}
+
+@mixin secondary-scale-bg($opacity) {
+  background-color: rgba(23, 42, 63, $opacity);
+}

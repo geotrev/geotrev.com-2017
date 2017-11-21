@@ -1,0 +1,13 @@
+{
+  "name": "ActiveRain",
+  "category": "Graphic Design, UI/UX, Front-End Development",
+  "intro": "While consulting at Adorable IO, one of the projects I contributed heavily to in a design and development capacity was ActiveRain. The website is a US-based harbor for real estate professionals to discuss industry tips and network with each other. I worked on a team with one other designer and three developers (although, truthfully, everyone was developing).",
+  "goals": {
+    "one": "From the get-go, the main focus was redesigning the home & user profile pages not just visually, but responsively (35% of their traffic was on iPhone, alone). In the process, we also wanted to improve their SEO and increase member satisfaction through better 404 management.",
+    "two": "Once the design and SEO changes were in full affect, we saw new user signups double. This was the first time in several years that traffic improved substantially. Both SEO and the new design provided very positive feedback from current users."
+  },
+  "tools": {
+    "one": "We introduced Foundation to guide our path towards a sustainable front-end framework. The project itself had a Rails backend, so a capable asset pipeline already existed. We set up a group of common UI elements as components for easy use, as well.",
+    "two": "For styling, we relied on Foundation's _settings.scss to apply the appropriate spacing, borders, and typographical branding needed to hit the ground running."
+  }
+}
