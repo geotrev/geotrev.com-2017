@@ -1,3 +1,6 @@
+# Itsa Portfolio
+Using ZURB template as the... *sunglasses*... foundation. B)
+
 # ZURB Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
@@ -40,7 +43,7 @@ foundation new --framework sites --template zurb
 
 The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
 
-Now `cd` to your project name and to start your project run 
+Now `cd` to your project name and to start your project run
 
 ```bash
 foundation watch
