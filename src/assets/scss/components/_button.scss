@@ -7,9 +7,12 @@
   color: $black;
   text-transform: uppercase;
   display: block;
-  transition: ease-out .3s;
+  transition: ease-out 0.3s;
 
-  &:hover { letter-spacing: 2px; transition: ease-out .3s; }
+  &:hover {
+    letter-spacing: 2px;
+    transition: ease-out 0.3s;
+  }
 
   &.inverted {
     background-color: transparent;
