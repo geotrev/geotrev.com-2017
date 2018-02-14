@@ -2,15 +2,15 @@
 // ---------------------
 
 .project-thumb {
-  // replaced by a project name class, e.g. "itunes"
   @include image('../img/placeholder-thumb.png');
 
   align-items: center;
   display: flex;
-  height: 250px;
+  height: 350px;
   text-align: center;
   width: 100%;
   overflow: hidden;
+  transition: ease-out 0.25s;
 
   h3 {
     color: $primary-color;
@@ -18,12 +18,14 @@
     font-size: 2.5rem;
     line-height: 1;
     font-weight: $global-weight-bold;
+    transition: ease-out 0.25s;
   }
 
   h4 {
     color: $white;
     margin-bottom: 0;
     font-size: 1rem;
+    transition: ease-out 0.25s;
   }
 
   h3, h4 { opacity: 0; }
@@ -35,8 +37,9 @@
     flex: 0 0 auto;
     justify-content: center;
     width: 100%;
-    height: 250px;
+    height: 350px;
     padding: 0 2rem;
+    transition: ease-out 0.25s;
 
     &:hover {
       @include secondary-scale-bg(0.9);

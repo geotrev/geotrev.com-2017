@@ -13,7 +13,7 @@ $projects: (
 // cover image
 // -----------
 
-@mixin image($path:null) {
+@mixin image($path: null) {
   background-image: url(#{$path});
   background-position: center center;
   background-repeat: no-repeat no-repeat;

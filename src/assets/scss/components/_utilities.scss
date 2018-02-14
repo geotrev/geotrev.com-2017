@@ -1,7 +1,7 @@
 .nav-collapse-height {
-  height: 0 !important;
-  z-index: 9999;
-  overflow: visible;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .text-secondary { opacity: 0.5; }
